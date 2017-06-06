@@ -8,8 +8,4 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
 
-  ngOnInit() {
-    console.log('App is running!');
-  }
-
 }

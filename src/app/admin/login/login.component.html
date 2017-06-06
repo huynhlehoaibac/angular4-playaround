@@ -1,7 +1,7 @@
 <div class="login-page">
   <div class="col-sm-6 push-sm-3 col-md-4 push-md-4">
     <h3>Angular4 - Login</h3>
-    <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
       <div class="form-content">
         <div class="form-group">
           <input [(ngModel)]="user.username" #username="ngModel" type="text" name="username" class="form-control" placeholder="Username" required>
